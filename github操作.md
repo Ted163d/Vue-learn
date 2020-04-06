@@ -55,5 +55,37 @@ git commit -m "提交"
 
 git push git@github.com/Ted163d/angular.git
 
+五、分支branch：
+
+提示Your branch is up-to-date with 'origin/master' 该怎么办？
+
+$ git branch newbranch
+
+$ git branch
+
+$ git checkout newbranch
+
+$ git branch    //检查是否切换成功
+
+$ git add .
+
+$ git commit -m "提交信息"
+
+$ git status
+
+$ git checkout master
+
+//将新分支改动合并到主分支
+
+$ git merge newbranch
+
+$ git push -u origin master
+
+$ git branch -D newbranch    //删除分支
+
+
+
+
+
 git学习完毕
 
