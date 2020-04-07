@@ -138,7 +138,11 @@ console.log(this.name,this.age)
 
 }
 
+// 管道过滤器
 
+public today ：any=new Date()
+
+{{today | date: 'yyyy-MM-dd HH:mm ss'}}
 
 
 
